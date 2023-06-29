@@ -30,10 +30,10 @@ Options:
 local TWITCH_GRAPHQL_URL = 'https://gql.twitch.tv/gql'
 
 local o = {
-    twitch_client_id = "<replace this with a working Twitch Client ID>",
+    twitch_client_id = "", -- replace this with a working Twitch Client ID
     break_long_lines = true,
     max_char_length = 30,
-    show_name = false,
+    show_name = true,
     color = true,
     duration_multiplier = 10,
     max_duration = 10,
